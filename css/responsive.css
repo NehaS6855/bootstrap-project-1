@@ -1,0 +1,64 @@
+/* Medium Device */
+@media(max-width:991px)
+{
+    /*Custom Design */
+    .text-content{
+        width: 100%;
+    }
+    .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: white;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+        margin-top: 5px;
+    }
+    .nav-item a{
+        border-radius: 10px;
+    }
+    .navigation-wrap .nav-item a:hover{
+        background-color: rgb(200, 199, 199);
+    }
+    .navbar-collapse ul li:last-child{
+        margin-top: 5px;
+    }
+
+    /* Top Banner */
+    .top-banner{
+        padding: 9.375rem 3rem 0 9.375rem;
+    }
+
+    /*Story Section */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .n{
+        width: 75%;
+    }
+
+    .n .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+/* Small Device */
+
+@media(max-width:767px)
+{
+    /*Custom CSS */
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+}
